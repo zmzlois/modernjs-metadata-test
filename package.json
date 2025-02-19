@@ -24,21 +24,27 @@
     "pre-commit": "npx lint-staged"
   },
   "dependencies": {
+    "@mdx-js/react": "^3.1.0",
     "@modern-js/runtime": "2.64.3",
+    "@rsbuild/plugin-image-compress": "^1.1.0",
+    "@rsbuild/plugin-mdx": "^1.0.2",
+    "highlight.js": "^11.11.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "rehype-highlight": "^7.0.2"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@modern-js/app-tools": "2.64.3",
     "@modern-js/tsconfig": "2.64.3",
-    "@biomejs/biome": "1.9.4",
-    "typescript": "~5.7.3",
     "@types/jest": "~29.2.4",
     "@types/node": "~18.11.9",
     "@types/react": "^18.3.11",
     "@types/react-dom": "~18.3.1",
     "lint-staged": "~15.4.0",
+    "rimraf": "^6.0.1",
     "simple-git-hooks": "^2.11.1",
-    "rimraf": "^6.0.1"
+    "typescript": "~5.7.3",
+    "zephyr-modernjs-plugin": "0.0.0-canary-20250219113844"
   }
 }
